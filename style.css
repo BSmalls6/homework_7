@@ -24,13 +24,14 @@ body {
     color: rgb(79, 154, 189);
     text-align: center;
     height: 10%;
+    z-index: 100;
   }
   li {
       font-size: 180%;
   }
 
   
-  .content {
+  section {
     padding: 16px;
   }
   
