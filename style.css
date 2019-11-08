@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .landing {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 2em;
+    color: lawngreen;
+    padding-top: 25%;
+    text-align: center;
+    min-height: 90vh;
+    background-image:  url("galaxy-wallpaper-2538107.jpg"); 
+    background-size: cover;
+  }
+  .jumbotron {
+      background: none;
+  }
+  
+  .header {
+    font-family: 'Share Tech', sans-serif;
+    padding: 15px 16px;
+    background: rgb(2, 40, 58);
+    color: rgb(79, 154, 189);
+    text-align: center;
+    height: 10%;
+  }
+  li {
+      font-size: 180%;
+  }
+
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
